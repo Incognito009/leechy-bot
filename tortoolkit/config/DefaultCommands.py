@@ -20,4 +20,4 @@ class Commands:
     CLRTHUMB = "clearthumb"
     SPEEDTEST = "speedtest"
     CRLDATA = "cleardata"
-	HELP = "help"
+    HELP = "help"
