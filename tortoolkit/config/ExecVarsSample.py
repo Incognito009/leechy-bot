@@ -7,7 +7,7 @@ except:
         IS_VPS = False
         
         API_HASH = ""
-        API_ID = ""
+        API_ID = 0
         BOT_TOKEN = ""
         BASE_URL_OF_BOT = ""
 
@@ -16,7 +16,7 @@ except:
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
         ALD_USR = []
-        OWNER_ID = ""
+        OWNER_ID = 0
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
@@ -52,7 +52,7 @@ except:
         MEGA_PASS = None
         ALLOW_MEGA_FOLDER = True
         ALLOW_MEGA_FILES = True
-        MAX_MEGA_LIMIT = 10
+        MAX_MEGA_LIMIT = 200
 
         # qBittorrent Config
         # TODO add port, retry to ints
@@ -98,8 +98,8 @@ except:
         # Try beta ytdl download if errored turn this off
         ENABLE_BETA_YOUTUBE_DL = True
 
-        # Max size direct link
-        MAX_DL_LINK_SIZE = 10
+        # Max size direct link in Gb
+        MAX_DL_LINK_SIZE = 200
 
         # SA Account Enable/Disable. Read the readme.md before using this feature.
         ENABLE_SA_SUPPORT_FOR_GDRIVE = False
@@ -122,7 +122,7 @@ except:
         MAX_YTPLAYLIST_SIZE = 9999
         
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 100
+        MAX_TORRENT_SIZE = 250
 
         # Set this to your bot username if you want to add the username of your bot at the end of the commands like
         # /leech@TorToolkitBot so the value will be @TorToolkitBot
@@ -140,7 +140,7 @@ except:
         # This is to stop someone from abusing the system by imposing the limit
         # [<GBs of total torrent space>, <Number of youtube videos allowed to download>, <Number of youtube playlists allowed to download>]
         USER_CAP_ENABLE = True
-        USER_CAP_LIMIT = [100,50,2]
+        USER_CAP_LIMIT = [250,9999,5]
 
         # No need to worry about these
         # CHANGE THESE AT YOUR RISK
