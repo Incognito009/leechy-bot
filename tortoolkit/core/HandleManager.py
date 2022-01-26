@@ -142,7 +142,7 @@ def add_handlers(bot: TelegramClient):
 	#bot.add_event_handler(
         #handle_help_command,
         #events.NewMessage(pattern=command_process(get_command("HELP")))
-    )
+    #)
 
     bot.add_event_handler(
         clear_thumb_cmd,
