@@ -1,10 +1,10 @@
 # **Leechy-bot by EDM115**
-Basically, this is a fork of [TorToolkitX-alpha](https://github.com/KangersHub/TorToolkitX), but with new things :
-✅ Can be deployed to Heroku
-✅ Better documentation
-✅ I fixed every error I seen
-✅ User-friendly buttons and messages
-✅ No more typos 🤓
+Basically, this is a fork of [TorToolkitX-alpha](https://github.com/KangersHub/TorToolkitX), but with new things :  
+✅ Can be deployed to Heroku  
+✅ Better documentation  
+✅ I fixed every error I seen  
+✅ User-friendly buttons and messages  
+✅ No more typos 🤓  
 Demo _[here](https://t.me/multi_purpose_robot)_ with the name of MultiPurpose Bot
 
 # Leechy-bot Telegram
